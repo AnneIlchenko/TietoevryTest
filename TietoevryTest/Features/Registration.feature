@@ -13,4 +13,4 @@ Scenario: Check registration error if the user does not pass the picture test
 		| Mail                   | ConfirmMail            |
 		| TestUserName@gmail.com | TestUserName@gmail.com |
 	When user presses the registration confirmation button
-	Then error message with 'Ви заповнили не усі обов'язкові поля: логін, пароль і адреса е-пошти.' text is displayed for user
+	Then error message with 'Текст, який Ви вказали для засвідчення людини, не відповідає тексту, зображеному на малюнку.' text is displayed for user

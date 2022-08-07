@@ -53,8 +53,8 @@ namespace TietoevryTest.StepDefinitions
         {
             foreach (var row in table.Rows)
             {
-                _registrationPageObject.EnterPassword(row["Mail"]);
-                _registrationPageObject.ConfirmPassword(row["ConfirmMail"]);
+                _registrationPageObject.EnterEmailAddress(row["Mail"]);
+                _registrationPageObject.ConfirmEmailAddress(row["ConfirmMail"]);
             }
         }
 

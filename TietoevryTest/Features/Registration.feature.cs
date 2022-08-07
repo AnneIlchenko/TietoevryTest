@@ -133,8 +133,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("user presses the registration confirmation button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 16
- testRunner.Then("error message with \'Ви заповнили не усі обов\'язкові поля: логін, пароль і адреса " +
-                        "е-пошти.\' text is displayed for user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("error message with \'Текст, який Ви вказали для засвідчення людини, не відповідає " +
+                        "тексту, зображеному на малюнку.\' text is displayed for user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
